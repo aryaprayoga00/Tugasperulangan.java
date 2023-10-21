@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Tugasperulangan {
@@ -22,28 +23,7 @@ public class Tugasperulangan {
         System.out.println(kata2 + ": " + (isPalindrome(kata2) ? "palindrome" : "bukan palindrome"));
         System.out.println(kata3 + ": " + (isPalindrome(kata3) ? "palindrome" : "bukan palindrome"));
         System.out.println(kata4 + ": " + (isPalindrome(kata4) ? "palindrome" : "bukan palindrome"));
-
-        System.out.println();
-
-    int[] deretA = {1, 2, 4, 3, 4, 6, 5, 6, 8, 7};
-        for (int angka : deretA) {
-        System.out.println(angka);
-        }
-        System.out.println();
-
-    int[] deretB = {1, 2, 3, 6, 11, 20, 37, 68};
-        for (int angka : deretB) {
-        System.out.println(angka);
-       }
-        
-        System.out.println();
-    for (int i = 1; i <= 3; i++) {
-        for (int j = 1; j <= 4; j++) {
-            int angka = i + (j - 1) * 3;
-            System.out.print(angka + " ");
-        }
-        System.out.println();
     }
 
-    }   
-                                           }
+    
+}
